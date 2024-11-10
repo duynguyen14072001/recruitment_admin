@@ -1,5 +1,12 @@
 {
   "extends": "./tsconfig.app.json",
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "nightwatch.conf.*",
+    "playwright.config.*"
+  ],
   "exclude": [],
   "compilerOptions": {
     "composite": true,
